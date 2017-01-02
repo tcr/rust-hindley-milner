@@ -1,0 +1,14 @@
+[package]
+authors = ["Tim Ryan <id@timryan.org>"]
+name = "hindley-milner"
+version = "0.1.0"
+description = "An implementation of the Hindley-Milner type system in Rust."
+license = "MIT"
+repository = "https://github.com/tcr/rust-hindley-milner.git"
+
+[lib]
+doctest = false
+
+[dependencies]
+lazy_static = "0.2.2"
+maplit = "0.1.4"
